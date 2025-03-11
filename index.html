@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Next Door</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+   
+    <script defer src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "qm61mmff96");
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="menu-logo">
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <img src="./imatges/carnextdor-removebg-preview 1.png" alt="Car Next Door Logo" class="logo" id="logo">
+        </div>
+        <div class="nav-buttons">
+            <button class="btn login" id="loginBtn">Login</button>
+            <button class="btn register" id="registerBtn">Registrar-se</button>
+            <div class="nav-icons" id="navIcons">
+                <i class="fas fa-home" id="homeIcon"></i>
+                <i class="fas fa-credit-card" id="paymentIcon"></i>
+                <i class="fas fa-user" id="userIcon"></i>
+            </div>
+        </div>
+    </nav>
+    
+    <aside class="sidebar" id="sidebar">
+        <div class="close-btn" id="closeSidebar">
+            <i class="fas fa-times"></i>
+        </div>
+        <ul>
+            <li><a href="#">LLOGUER</a></li>
+            <li><a href="./cards.html">PAGAMENT</a></li>
+            <li><a href="./user.html">USUARI</a></li>
+            <li><a href="#">RESERVES</a></li>
+            <li><a href="#">CONFIGURACIÓ</a></li>
+        </ul>
+    </aside>
+    
+    <main>
+        <section class="hero">
+            <img src="./imatges/Image (3).png" alt="Car Next Door" class="hero-image">
+            <div class="info-bar">
+                <div class="info-section" id="locationBtn">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Ubicació</span>
+                </div>
+                <div class="info-section" id="pickupBtn">
+                    <i class="fas fa-car"></i>
+                    <span>Recollida</span>
+                </div>
+                <div class="info-section" id="returnBtn">
+                    <i class="fas fa-undo-alt"></i>
+                    <span>Devolució</span>
+                </div>
+            </div>
+        </section>
+
+        <h1>PROPER A MI</h1>
+
+        <div class="carousel-container">
+            <button id="prevBtn" class="carousel-btn left"><i class="fas fa-chevron-left"></i></button>
+            
+            <div class="car-carousel">
+                <section class="car-card">
+                    <img src="./imatges/ford_focus.jpeg" alt="Coche de alquiler" class="car-image">
+                    <div class="car-info">
+                        <h3>Ford Focus 2022</h3>
+                        <p>Compacte, eficient i ideal per a la ciutat.</p>
+                        <p><strong>Preu: 30€/dia</strong></p>
+                        <button class="rent-btn">Llogar ara</button>
+                    </div>
+                </section>
+        
+                <section class="car-card">
+                    <img src="./imatges/ford_focus.jpeg" alt="Coche de alquiler" class="car-image">
+                    <div class="car-info">
+                        <h3>Toyota Corolla 2023</h3>
+                        <p>Comoditat i estil per als teus viatges.</p>
+                        <p><strong>Preu: 35€/dia</strong></p>
+                        <button class="rent-btn">Llogar ara</button>
+                    </div>
+                </section>
+        
+                <section class="car-card">
+                    <img src="./imatges/ford_focus.jpeg" alt="Coche de alquiler" class="car-image">
+                    <div class="car-info">
+                        <h3>Volkswagen Golf 2021</h3>
+                        <p>Un cotxe fiable per a qualsevol situació.</p>
+                        <p><strong>Preu: 28€/dia</strong></p>
+                        <button class="rent-btn">Llogar ara</button>
+                    </div>
+                </section>
+                <section class="car-card">
+                    <img src="./imatges/ford_focus.jpeg" alt="Coche de alquiler" class="car-image">
+                    <div class="car-info">
+                        <h3>Ford Focus 2022</h3>
+                        <p>Compacte, eficient i ideal per a la ciutat.</p>
+                        <p><strong>Preu: 30€/dia</strong></p>
+                        <button class="rent-btn">Llogar ara</button>
+                    </div>
+                </section>
+                <section class="car-card">
+                    <img src="./imatges/ford_focus.jpeg" alt="Coche de alquiler" class="car-image">
+                    <div class="car-info">
+                        <h3>Ford Focus 2022</h3>
+                        <p>Compacte, eficient i ideal per a la ciutat.</p>
+                        <p><strong>Preu: 30€/dia</strong></p>
+                        <button class="rent-btn">Llogar ara</button>
+                    </div>
+                </section>
+                <section class="car-card">
+                    <img src="./imatges/ford_focus.jpeg" alt="Coche de alquiler" class="car-image">
+                    <div class="car-info">
+                        <h3>Ford Focus 2022</h3>
+                        <p>Compacte, eficient i ideal per a la ciutat.</p>
+                        <p><strong>Preu: 30€/dia</strong></p>
+                        <button class="rent-btn">Llogar ara</button>
+                    </div>
+                </section>
+            </div>
+        
+            <button id="nextBtn" class="carousel-btn right"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        
+
+
+        
+    </main>
+
+    <div id="mapModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <input type="text" id="locationInput" placeholder="Escriu la teva ubicació">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537353153167!3d-37.81627977975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d1b6e4b0b1b!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1613978888888!5m2!1sen!2sau"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <!-- Modal per al calendari de recollida -->
+    <div id="pickupModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <input type="text" id="pickupDate" placeholder="Selecciona una data">
+        </div>
+    </div>
+
+    <!-- Modal per al calendari de devolució -->
+    <div id="returnModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <input type="text" id="returnDate" placeholder="Selecciona una data">
+        </div>
+    </div>
+</body>
+</html>
